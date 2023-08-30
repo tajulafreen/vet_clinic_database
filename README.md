@@ -98,6 +98,18 @@ This repository includes files with plain SQL that can be used to recreate the d
 - Twitter: [@twitterhandle](https://twitter.com/WinnerDevq)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/winnera/)
 
+👤 **Tajul Afreen**
+
+- GitHub: [@githubhandle](https://github.com/tajulafreen)
+- Twitter: [@twitterhandle](https://twitter.com/tajulafreen)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tajul-afreen/)
+
+👤 **Rodrigo Penayo**
+
+- GitHub: [@rodrigopenayo98](https://github.com/rodrigopenayo98)
+- Twitter: [@rodrigopenayo98](https://twitter.com/rodrigopenayo98)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/rodrigo-penayo-391226158/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
