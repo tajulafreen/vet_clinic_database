@@ -33,3 +33,13 @@ CREATE TABLE treatments (
     type VARCHAR(100),
     name VARCHAR(100),
 );
+
+
+------------------------- create foreign key
+
+CREATE INDEX idx_p_id ON medical_histories (patient_id),
+       idx_in_mh_id ON invoices (medical_history_id),
+       idx_in_id ON invoice_items (invoice_id),
+       idx_int_tr_id ON invoice_items (treatment_id),
+       idx_ht_mh_id ON history_and_treatments (medical_history_id),
+       idx_ht_tr_id ON history_and_treatments (treatment_id);
