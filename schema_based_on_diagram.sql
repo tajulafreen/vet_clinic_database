@@ -35,7 +35,7 @@ CREATE TABLE treatments (
 );
 
 
-------------------------- create foreign key
+------------------------- create foreign keys
 
 CREATE INDEX idx_p_id ON medical_histories (patient_id),
        idx_in_mh_id ON invoices (medical_history_id),
