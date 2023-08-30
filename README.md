@@ -3,7 +3,7 @@
 
 <div align="center">
 
-  <h1>Diagram Database</h1>
+  <h1>Vet clinic Diagram Database</h1>
 
 </div>
 
@@ -30,9 +30,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [vet-clinic] <a name="about-project"></a>
+# 📖 [vet-clinic_Diagram] <a name="about-project"></a>
 
-**[diagram_database]** is a relational database that is created using a database diagram that is interpreted and implemented the SQL needed to build the database.
+**[vet_clinic_database]** is a relational database that is created using a database diagram that is interpreted and implemented the SQL needed to build the database.
 
 ### Tech Stack <a name="tech-stack"></a>
 
