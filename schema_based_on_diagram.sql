@@ -16,7 +16,7 @@ CREATE TABLE invoices (
     total_amount DECIMAL(10,2),
     generated_at timestamp,
     payed_at timestamp,
-    medical_history_id serial PRIMARY KEY NOT NULL,
+    FOREIGN_KEY(medical_history_id) REFERENCES medical_histories(id) 
 ); 
 
 CREATE TABLE invoice_items (
@@ -24,14 +24,14 @@ CREATE TABLE invoice_items (
     unit_price DECIMAL(10,2),
     quantity NOT NULL,
     total_price DECIMAL(10,2),
-    invoice_id serial PRIMARY KEY NOT NULL,
-    treatment_id serial PRIMARY KEY NOT NULL,
+    FOREIGN_KEY(invoice_id) REFERENCES invoices(id)
+    FOREIGN_KEY(treatment_id) REFERENCES medical_histories_treatments(id)
 ); 
 
-CREATE TABLE treatments (
-    id serial PRIMARY KEY NOT NULL,
-    type VARCHAR(100),
-    name VARCHAR(100),
+CREATE TABLE medical_history_treatments (
+  medical_history_id INT REFERENCES medical_histories(id),
+  treatment_id INT REFERENCES treatments(id),
+  PRIMARY KEY (medical_history_id, treatment_id)
 );
 
 
